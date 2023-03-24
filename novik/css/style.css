@@ -1,0 +1,276 @@
+.container{
+	max-width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.header{
+	padding-top: 33px;
+}
+
+
+
+/*Navigation*/
+
+
+.header_nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_nav_el{
+	text-decoration: none;
+	color: #828282;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 22.28px;
+}
+
+.header_nav_el:hover{
+	color: black;
+	transition: .3s;
+}
+
+hr{
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+	border: 0;
+	height: 1px;
+	margin: 22px 0 22px 0;box-sizing:
+	content-box;
+	display: block;
+}
+
+
+
+/*HEADER*/
+
+
+
+.header_disc{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.header_disc_el1{
+	font-family: 'Montserrat', sans-serif;
+	color: #070707;
+	font-size: 47.34px;
+	line-height: 58.61px;
+	font-weight: bold;
+}
+
+.header_disc_el2{
+	font-family: 'Montserrat', sans-serif;
+	color: #070707;
+	font-size: 18px;
+	line-height: 21.83px;
+	padding-bottom: 5px;
+}
+
+.header_disc_el3{
+	font-family: 'Montserrat', sans-serif;
+	color: #828282;
+	font-size: 16px;
+	line-height: 19.81px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	transform: rotate(-90deg);
+	position: relative;
+	bottom: 30px;
+	left: 3%;
+}
+
+.header_img{
+	padding: 50px 0 100px 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/*ABOUT*/
+
+
+
+.about{
+	padding: 110px 0;
+	background-color: #F6F6F6;
+	text-align: center;
+}
+
+.about_title{
+	color: Black;
+	font-size: 34px;
+	line-height: 42.09px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 18px;
+}
+
+.about_txt{
+	margin: 0 auto;
+	color: Black;
+	font-size: 18px;
+	line-height: 21.83px;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 485px;
+}
+
+.about_ind{
+	margin: 20px 0;
+}
+
+
+
+
+/*SKILLS*/
+
+
+
+
+.skills{
+	padding: 95px 0;
+	text-align: center;
+}
+
+.skills_title{
+	color: Black;
+	font-size: 34px;
+	line-height: 42.09px;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.skills_subtittle{
+	color: Black;
+	font-size: 18px;
+	line-height: 21.83px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 70px 0 80px 0;
+}
+
+.skills_cont{
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills_cont_column:hover>.skills_cont_txt{
+	color: black;
+	transition: .3s;
+}
+
+.skills_cont_txt{
+	color: #828282;
+	font-size: 14px;
+	line-height: 17.33px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin: 25px 0 50px 0;
+}
+
+
+
+
+/*PORTFOLIO*/
+
+
+
+
+.portfolio{
+	padding: 115px 0 100px 0;
+	background-color: #F6F6F6;
+	text-align: center;
+}
+
+.portfolio_title{
+	color: #070707;
+	font-size: 34px;
+	line-height: 42.09px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: -50px;
+}
+
+.portfolio_img{
+	margin: 100px 0 50px 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.portfolio_txt{
+	opacity: 0.9;
+	text-decoration: underline;
+	color: #070707;
+	font-size: 18px;
+	line-height: 21.83px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio_txt:hover{
+	opacity: 1;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+
+
+
+
+/*CONTACTS*/
+
+
+
+
+
+.contacts{
+	text-align: center;
+	padding: 120px 0;
+}
+
+.contacts_title{
+	color: #070707;
+	font-size: 34px;
+	line-height: 42.09px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.contacts_subtitle{
+	color: #070707;
+	font-size: 18px;
+	line-height: 21.83px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 25px 0;
+}
+
+.contacts_btn{
+	padding: 15px 30px;
+	background-color: black;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 22.28px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	border-radius: 50px;
+}
+
+.icn{
+	color: #828282;
+	font-size: 40px;
+	margin: 95px 50px;
+}
+
+.icn:hover{
+	color: black;
+	transition: .5s;
+}
+
+.contacts_txt{
+	color: #828282;
+	font-size: 14px;
+	line-height: 16.98px;
+	font-family: 'Montserrat', sans-serif;
+}
